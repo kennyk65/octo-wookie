@@ -10,4 +10,5 @@ spring:
 spring:
   profiles:
     active: default
-    lucky-word: twenty-one
+    default:
+      lucky-word: twenty-one
