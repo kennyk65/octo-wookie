@@ -2,10 +2,12 @@ lucky-word: bingo!
 
 ---
 spring:
-  profiles: cloud
-  lucky-word: Irish
+  profiles:
+    active: cloud
+    lucky-word: Irish
   
 ---
 spring:
-  profiles: default
-  lucky-word: twenty-one
+  profiles:
+    active: default
+    lucky-word: twenty-one
