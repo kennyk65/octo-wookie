@@ -1,11 +1,11 @@
-aaa: 383838
+lucky-word: bingo!
 
 ---
 spring:
   profiles: cloud
-  aaa: 1111
+  lucky-word: Irish
   
 ---
 spring:
   profiles: default
-  aaa: 2222
+  lucky-word: twenty-one
