@@ -1,1 +1,11 @@
 aaa: fromyaml
+
+---
+spring:
+  profiles: cloud
+  aaa: 1111
+  
+---
+spring:
+  profiles: default
+  aaa: 2222
